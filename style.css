@@ -1,0 +1,161 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.container h1{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(228, 196, 12);
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.box {
+    background-color: azure;
+    border-radius: 18px;
+    box-shadow: rgba(129, 129, 152, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    width: 650px;
+    max-height: 300px;
+    padding: 12px;
+}
+
+img {
+    width: 85px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(182 196 237);
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgb(119, 48, 233);
+}
+
+.joke {
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding: 0 5px 35px 5px;
+    font-weight: 500;   
+}
+
+.box1{
+    width: 100%;
+}
+
+.box1 h2{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(241, 241, 231);
+    text-align: center;
+}
+
+.box1 h4{
+    color:#fff;
+}
+
+.box a{
+    padding: 10px 10px;
+    text-decoration: none;
+    border: white 2px solid;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;  
+}
+
+#box-bottom{
+    background-color: none;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    border: none;   
+}    
+
+.icons{
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    align-self: flex-end;    
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    align-self: flex-end;
+    display: block;
+    position: relative;  
+}
+
+.footer img{
+    width: 200px;
+}
+
+.footer h6{
+    color: white;
+}
+
+@media only screen and (max-width:400px) {
+    .box {
+        width: 300px;
+        max-height: 500px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .box {
+        width: 270px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .joke {
+        font-size: 16px;
+    }
+
+    .footer{
+        width: 300px;
+        max-height: 500px;
+    }
+}
